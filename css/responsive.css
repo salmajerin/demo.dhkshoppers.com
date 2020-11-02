@@ -1,0 +1,67 @@
+/*--------------------------------------------------------------
+Responsive Style
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1. x >= 1440px
+--------------------------------------------------------------*/
+@media screen and (min-width: 1440px) {
+	.mobile-view {
+		display: none !important;
+	}
+	.desktop-view {
+		display: block !important;
+	}
+}
+
+/* #Tablet (Landscape)
+================================================== */
+
+@media only screen and (max-width: 1080px) {
+	.mobile-view {
+		display: block !important;
+	}
+    .desktop-view {
+		display: none !important;
+	}
+    
+}
+
+/* #Tablet (Portrait)
+================================================== */
+    
+@media only screen and (max-width: 959px) {
+    .mobile-view {
+		display: block !important;
+	}
+	.desktop-view {
+		display: none !important;
+	}
+}
+
+
+/* 4. #Mobile (Landscape)
+================================================== */
+
+@media only screen and (max-width: 767px) {
+	.mobile-view {
+		display: block !important;
+	}
+	.desktop-view {
+		display: none !important;
+	}
+	
+}
+
+/*--------------------------------------------------------------
+7. x <= 479px (iPhone Portrait)
+--------------------------------------------------------------*/
+@media screen and (max-width: 479px) {
+	.mobile-view {
+		display: block !important;
+	}
+	.desktop-view {
+		display: none !important;
+	}
+	
+}
